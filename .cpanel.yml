@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pomatiac/dev.pomatia.com/
+    - /bin/cp * $DEPLOYPATH
